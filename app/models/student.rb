@@ -16,7 +16,7 @@ class Student < ActiveRecord::Base
   
   def self.search(search)
     if search 
-      
+      student = Student.all.select 
   end
     
 end
